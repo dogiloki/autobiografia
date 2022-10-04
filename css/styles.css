@@ -51,14 +51,11 @@ nav li{
 .info .titulo{
 	margin-bottom: 10px;
 }
-<<<<<<< HEAD
 .info .texto{
 	text-align: left;
 	height: 300px;
 	overflow-y: scroll;
 }
-=======
->>>>>>> 921abcfa4ac5810f16aded92d0db4a4d0063fea0
 .content-btns{
 	display: flex;
 	justify-content: space-between;
