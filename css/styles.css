@@ -53,7 +53,7 @@ nav li{
 }
 .info .texto{
 	text-align: left;
-	height: 300px;
+	height: 350px;
 	overflow-y: scroll;
 }
 .content-btns{
@@ -71,4 +71,25 @@ nav li{
 }
 .click{
 	cursor: pointer;
+}
+.fechas{
+	color: #353535;
+	margin: 10px;
+	font-size: 16px;
+}
+.caja{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	color: #353535;
+	border: 2px solid #c2c2c2;
+	outline: none;
+}
+.caja:focus{
+	border: 2px solid #569717;	
+}
+.btn{
+	padding: 5px;
+	text-align: center;
 }

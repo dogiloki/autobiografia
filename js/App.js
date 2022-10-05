@@ -16,6 +16,11 @@ var estudios_formacion={
 	texto:"Al entrar al la Secundaria llamada... (no me acuerdo). Por estos años fur la primera vez que tuvo un ordenador personal Windows 8.1 después tuvo otras con WIndows 7 y XP. Aquí aprendí a usar Office, lo enseñabán en la Primaria.A los 12 años compenze a aprender a tocar la guitarra, veía libros que había en Internet (muy teoricos), gran parte de lo que entiendo de música es por esos libros, no me acuerdo ni con se llaman pero erán muy buenos.<br><br>Al entrar a la Preparatoria llamada CECyTem, fue en parte porque erá sercana a mi casa, y tenía una especialdad (Técnico en Programación) a simple vista interesante, note que se me daba más o menos bien, pero no me convencia eso de continuar la Universidad, por que hay mucho relleno.<br>Así que pense en entrar al ejercito, investigo como entrar y encontré que podía estudiar una Universidad dentro del ejercito, especializandome en un aréa, a demás de ser gratis el ingreso (solo comprar libros necesario) parecía bastante interesante, pero suspendí las pruebas de natación.<br><br>Después fui a una universidad llamada GUTT donde estudiaba la carrera de contaduría, no me pareció muy interesante así que solo estuve 3 Cuatrimestres y cambie de institución.<br>Ahora estudio en la UPTecámac y sigó se vez en cuando estudiando y haciendo algo de música, solo como hobbie."
 };
 
+var contacto={
+	titulo:"Contacto",
+	texto:"<form><input type='text' class='caja' placeholder='Email'><textarea class='caja' placeholder='Asunto'></textarea><div style='width: 100%'><input type='submit' class='btn' value='Enviar'></div></from>"
+}
+
 var monografia={
 	titulo:"Monografía",
 	texto:"<a href='https://dogiloki.github.io/monografia' class='click'>Click aquí</a>"
@@ -25,6 +30,7 @@ var datos=[
 	new Dato(nacimiento.titulo,nacimiento.texto),
 	new Dato(infancia.titulo,infancia.texto),
 	new Dato(estudios_formacion.titulo,estudios_formacion.texto),
+	new Dato(contacto.titulo,contacto.texto),
 	new Dato(monografia.titulo,monografia.texto)
 ];
 
