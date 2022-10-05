@@ -3,7 +3,7 @@ var content_info=document.getElementById('content-info');
 
 var nacimiento={
 	titulo:"Nacimiento",
-	texto:"Mi nombre es Julio César Villanueva Ontiveros.<br>Nací el 19 de Agosto del 2002 en Hidalgo, México.<br>Mis padre se llama Vicente Villanueva Jarillo.<br>Mi madre es Nancy Fabiola Ontivetos.<br>Tengo 2 hermanos y 4 hermanas, 1 de ellos en menor de edad."
+	texto:"Mi nombre es Julio César Villanueva Ontiveros.<br>Nací el 19 de Agosto del 2002 en Hidalgo, México.<br>Mi padre se llama Vicente Villanueva Jarillo.<br>Mi madre es Nancy Fabiola Ontivetos.<br>Tengo 2 hermanos y 4 hermanas, 1 de ellos en menor de edad."
 };
 
 var infancia={
@@ -16,10 +16,16 @@ var estudios_formacion={
 	texto:"Al entrar al la Secundaria llamada... (no me acuerdo). Por estos años fur la primera vez que tuvo un ordenador personal Windows 8.1 después tuvo otras con WIndows 7 y XP. Aquí aprendí a usar Office, lo enseñabán en la Primaria.A los 12 años compenze a aprender a tocar la guitarra, veía libros que había en Internet (muy teoricos), gran parte de lo que entiendo de música es por esos libros, no me acuerdo ni con se llaman pero erán muy buenos.<br><br>Al entrar a la Preparatoria llamada CECyTem, fue en parte porque erá sercana a mi casa, y tenía una especialdad (Técnico en Programación) a simple vista interesante, note que se me daba más o menos bien, pero no me convencia eso de continuar la Universidad, por que hay mucho relleno.<br>Así que pense en entrar al ejercito, investigo como entrar y encontré que podía estudiar una Universidad dentro del ejercito, especializandome en un aréa, a demás de ser gratis el ingreso (solo comprar libros necesario) parecía bastante interesante, pero suspendí las pruebas de natación.<br><br>Después fui a una universidad llamada GUTT donde estudiaba la carrera de contaduría, no me pareció muy interesante así que solo estuve 3 Cuatrimestres y cambie de institución.<br>Ahora estudio en la UPTecámac y sigó se vez en cuando estudiando y haciendo algo de música, solo como hobbie."
 };
 
+var monografia={
+	titulo:"Monografía",
+	texto:"<a href='https://dogiloki.github.io/monografia' class='click'>Click aquí</a>"
+}
+
 var datos=[
 	new Dato(nacimiento.titulo,nacimiento.texto),
 	new Dato(infancia.titulo,infancia.texto),
-	new Dato(estudios_formacion.titulo,estudios_formacion.texto)
+	new Dato(estudios_formacion.titulo,estudios_formacion.texto),
+	new Dato(monografia.titulo,monografia.texto)
 ];
 
 var menu=new Menu(this.content_nav,this.content_info,this.datos);
