@@ -18,8 +18,7 @@ var estudios_formacion={
 
 var contacto={
 	titulo:"Contacto",
-	texto:"<form><input type='text' class='caja' placeholder='Email'><textarea class='caja' placeholder='Asunto'></textarea><div style='width: 100%'><input type='submit' class='btn' value='Enviar'></div></from><br>Email: <a href='email:juliojs@gmail.com'>juliojs@gmail.com</a><br><br>Teléfono: <a href='tel:5612345678'>5612345678</a>"
-}
+	texto:"<form><input type='text' class='caja' placeholder='Email'><textarea class='caja' placeholder='Asunto'></textarea><div style='width: 100%'><input type='submit' class='btn' value='Enviar'></div></from><br><div class='content-contacto'><a href='mailto:juliojs@gmail.com'><img src='assets/email.png' widht='30px' height='30px' class='click'></a><br><a href='https://github.com/dogiloki' target='_blank'><img src='assets/github.png' widht='30px' height='30px' class='click'></a><label>Tel: <a href='tel:5612345678'>56 1234 5678</a><label></div>"}
 
 var monografia={
 	titulo:"Monografía",
